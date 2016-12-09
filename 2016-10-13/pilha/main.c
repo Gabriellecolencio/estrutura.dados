@@ -39,7 +39,7 @@ int main() {
 		printf("4 - Inserir elemento na pilha (push)\n");
 		printf("5 - Remover elemento da pilha (pop)\n");
 		printf("6 - Limpar a pilha (clear)\n");
-		printf("7 - Sair\n---------------------------------\n>>> ");
+		printf("S - Sair\n---------------------------------\n>>> ");
 
 		// Carregar opcao
 		scanf("%c", &opcao);
@@ -56,7 +56,7 @@ int main() {
 
                 if (topo == NULL) {
 
-                    printf("\nA lista está vazia.");
+                    printf("\nA pilha está vazia (empty).");
 
                 } else {
 
@@ -86,7 +86,8 @@ int main() {
                 clearStack(&topo);
                 break;
 
-            case '7':
+            case 's':
+            case 'S':
 
                 clearStack(&topo);
                 sair = 1;

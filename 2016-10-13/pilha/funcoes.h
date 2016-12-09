@@ -11,7 +11,7 @@ void listStack(struct no *topo) {
 
     if (topo == NULL) {
 
-        printf("\nA lista está vazia.");
+        printf("\nA pilha está vazia (empty).");
 
     } else {
 
@@ -89,7 +89,7 @@ void popStack(struct no **topo) {
 
     if (*topo == NULL) {
 
-        printf("\nA lista está vazia.");
+        printf("\nA pilha está vazia (empty).");
 
     } else {
 
@@ -113,7 +113,7 @@ void clearStack(struct no **topo) {
 
     if (*topo == NULL) {
 
-        printf("\nA lista está vazia.");
+        printf("\nA pilha está vazia (empty).");
 
     } else {
 
