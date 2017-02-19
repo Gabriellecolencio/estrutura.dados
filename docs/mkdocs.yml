@@ -1,0 +1,14 @@
+site_name: Estrutura de Dados
+site_description: Lista de exercícios da disciplina de Estrutura de Dados do curso de Analise e Desenvolvimento de Sistemas da FATEC de Franca.
+site_author: Getúlio Vinicius <getuliovinits@gmail.com>
+google_analytics: ['UA-70830801-4', 'getuliovinicius.github.io/estrutura.dados/']
+repo_url: https://github.com/getuliovinicius/estrutura.dados
+repo_name: GitHub
+edit_uri: blob/master/docs/mds/
+remote_branch: gh-pages
+remote_name: origin
+docs_dir: 'mds'
+pages:
+  - Inicio: index.md
+theme: readthedocs
+
